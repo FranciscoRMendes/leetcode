@@ -11,7 +11,6 @@ class Solution:
         visit = [False] * size
 
         for i in range(size):
-
             if not visit[i]:
                 numberOfComponents += 1
                 self.dfs(i, isConnected, visit)
